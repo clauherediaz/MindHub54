@@ -35,12 +35,12 @@ header img {
 }
 
 a:hover {
-    background-color: greenyellow;
+    background-color: #6dbacd;
     color: white;
 }
 
 a[href="#"] {
-    background-color: greenyellow;
+    background-color: #6dbacd;
 }
 
 a {
@@ -79,4 +79,26 @@ aside {
 
 main section {
     width: 75%;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+    background-color: #eff0d1;
+}
+
+th {
+    background-color: #004E89;
+}
+
+tbody {
+    background-color: #eff0d1;
+}
+
+tbody tr:hover {
+    background-color: yellow;
 }
