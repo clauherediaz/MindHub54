@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejercicio sprint 1">
+    <meta name="keywords" content="Hockey">
+    <meta name="author" content="Claudia">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <title>Mighty Ducks Hockey League</title>
+</head>
+
+<body>
+    <header>
+        <h1> Mighty Ducks Hockey League</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../vistas/about.html">About MDHL</a>
+            <a href="../vistas/calendario.html">Calendar</a>
+            <a href="../vistas/reglas.html">Game Ruls</a>
+            <a href="#">Formulario</a>
+            <a href="../vistas/contact.html">Contact</a>
+        </nav>
+
+        <img src="../assets/img/imagen5.jpg" width="100%" alt="baanner hockey" />
+        <h2> Registration Form</h2>
+    </header>
+    <main>
+        <section>
+            <h3>Form</h3>
+            <form action="./show_data.html" method="get">
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <label for="nombre">Player’s First Name:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Here your name">
+
+                    <label for="apellidos">Last Name: </label>
+                    <input type="text" name="apellidos" id="apellidos">
+
+                    <label for="Address">Street Address:</label>
+                    <input type="text" name="Address" id="Address" max="100" min="18">
+
+                    <label for="Address">City:</label>
+                    <input type="text" name="Address" id="Address">
+
+                    <label for="code">Zip Code:</label>
+                    <input type="code" name="code" id="code">
+
+                    <label for="date">Birth Date</label>
+                    <input type="date" name="date" id="date">
+                    <!-- placeholder="00/00/0000" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" -->
+                </fieldset>
+                <fieldset>
+                    <legend>Genero</legend>
+                    <label>Masculino
+                            <input type="radio" name="genero" id="genero" value="Masculino">
+                        </label>
+                    <label>Femenino
+                            <input type="radio" name="genero" id="genero" value="Femenino">
+                        </label>
+                    <label for="">Otro
+                            <input type="radio" name="genero" id="genero" value="Otro">
+                        </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Grade</legend>
+                    <label>Pre-School
+                            <input type="checkbox" name="Grade" id="Grade" value="Pre-School">
+                        </label>
+                    <label>1st
+                            <input type="checkbox" name="Grade" id="Grade" value="1st">
+                        </label>
+                    <label>2nd
+                            <input type="checkbox" name="Grade" id="Grade" value="2st">
+                        </label>
+                    <label>3rd
+                            <input type="checkbox" name="Grade" id="Grade" value="3st">
+                        </label>
+                    <label>4th
+                            <input type="checkbox" name="Grade" id="Grade" value="4st">
+                        </label>
+                    <label>5th
+                            <input type="checkbox" name="Grade" id="Grade" value="5st">
+                        </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Which elementary school do you live near?</legend>
+                    <legend>Closest School:</legend>
+
+                    <label>AJ Katzenmaier
+                        <input type="checkbox" name="school" id="school" value="Cerveza">
+                    </label>
+                    <label>Marjorie P Hart
+                        <input type="checkbox" name="school" id="school" value="Vino">
+                    </label>
+                    <label>Greenbay
+                        <input type="checkbox" name="school" id="school" value="Mate">
+                    </label>
+                    <label>North Elementary 
+                        <input type="checkbox" name="school" id="school" value="Mate">
+                    </label>
+                    <label>Howard A Yeager
+                        <input type="checkbox" name="school" id="school" value="Cafe">
+                    </label>
+                    <label>South Elementary
+                        <input type="checkbox" name="school" id="school" value="Cafe">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What position(s) do you normally play? (check all that apply)</legend>
+
+                    <label>Forward 
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Cerveza">
+                    </label>
+                    <label>Midfield
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Vino">
+                    </label>
+                    <label>Defense 
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Mate">
+                    </label>
+                    <label>Goalkeeper 
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Mate">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Uniform Size:</legend>
+
+                    <label>Youth Smal
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Cerveza">
+                    </label>
+                    <label>Medium 
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Vino">
+                    </label>
+                    <label>Youth Medium 
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Mate">
+                    </label>
+                    <label>Large
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Cafe">
+                    </label>
+                    <label>Extra-Large
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Cafe">
+                    </label>
+                    <label>Small
+                        <input type="checkbox" name="bebidas" id="bebidas" value="Cafe">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Permission to Play</legend>
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in
+                        consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and voIunteers,incIuding the
+                        facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
+                        By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
+                    </p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Name">
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date" placeholder="00/00/0000" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}">
+
+                </fieldset>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+
+
+
+
+</body>
+
+</html>
